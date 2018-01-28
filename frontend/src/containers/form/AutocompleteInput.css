@@ -1,0 +1,31 @@
+.form-input input {
+    width: 200px;
+}
+.form-input--menu {
+    width: 204px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.form-input--menu:empty {
+    border: none;
+}
+
+.form-input--menu .form-input--item {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.form-input--menu .form-input--item.form-input--item-highlighted {
+    color: white;
+    background-color: #4095bf;
+}
+.form-input label {
+    display: block;
+    margin: 5px 0;
+}
